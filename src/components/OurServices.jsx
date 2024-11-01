@@ -16,7 +16,7 @@ const OurServices = () => {
                     <div className="flex gap-8">
                         {workAchievements.map((item) => {
                             return (
-                                <div className="flex flex-col gap-4">
+                                <div className="flex service-card flex-col gap-4">
                                     <div className="flex">
                                         <h1 className="text-[36px]">{item.title}</h1><p>+</p>
                                     </div>

@@ -7,7 +7,6 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Pagination, Autoplay } from 'swiper/modules';
-import image1 from '../assets/image1.jpg'
 import image2 from '../assets/image2.jpg'
 export default function Slider() {
     return (

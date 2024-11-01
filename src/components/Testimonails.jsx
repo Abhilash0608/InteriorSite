@@ -44,7 +44,7 @@ const TestimonialSlider = () => {
                 </button>
 
                 {/* Testimonial Content */}
-                <div className="px-4 py-12 testimonical-card w-[50%]">
+                <div className="px-12 py-12 testimonical-card w-[60%]">
                     <div className="flex justify-center mb-2">
                         {[...Array(testimonials[current].rating)].map((_, index) => (
                             <FaStar key={index} className="text-yellow-500" />
